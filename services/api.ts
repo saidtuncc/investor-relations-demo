@@ -5,7 +5,7 @@ import {
   PortfolioProperty,
 } from '../types';
 
-const API_BASE = 'http://localhost:8100';
+const API_BASE = 'http://3.74.130.157:8000';
 
 export const api = {
   async getKapNotifications(): Promise<KapNotification[]> {
