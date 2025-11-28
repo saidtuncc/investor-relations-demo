@@ -20,7 +20,9 @@ export interface FinancialKpi {
 
 export interface AssistantResponse {
   answer: string;
-  sources?: KapNotification[];
+  pendoryaResults?: KapNotification[];
+  equityValue?: number;
+  highlights?: string[];
 }
 
 export interface PortfolioProperty {
@@ -35,9 +37,8 @@ export interface PortfolioProperty {
   valuation_date?: string | null;
 }
 
-
 export enum Tab {
   DASHBOARD = 'DASHBOARD',
   KAP = 'KAP',
-  ASSISTANT = 'ASSISTANT'
+  ASSISTANT = 'ASSISTANT',
 }
