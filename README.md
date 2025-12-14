@@ -34,26 +34,13 @@ Bu sayede demo, gerçek veriye dayalı bir görünüm sunarken, henüz entegrasy
 
 ## Sonraki Adımlar (Geliştirme Fikirleri)
 
-Bu prototip, TSKB GYO'nun yatırımcı ilişkileri ve finansal raporlama süreçlerini hızlandırmaya yönelik bir çekirdek olarak tasarlanmıştır. Bir sonraki aşamada aşağıdaki geliştirmeler yapılabilir:
-
 1. **KAP Entegrasyonu**
-   - KAP API veya kurum içi KAP log/Excel dosyalarıyla entegrasyon.
-   - Bildirimlerin tür, konu ve etki bazında filtrelenmesi ve etiketlenmesi.
-   - Yeni KAP bildirimi geldiğinde e-posta / Teams bildirimi gibi uyarı mekanizmaları.
 
 2. **Finansal Rapor Otomasyonu**
-   - Çeyreklik finansal tabloların (Excel/PDF) otomatik okunması.
-   - Zaman serisi KPI setlerinin (toplam varlıklar, özkaynak, borçluluk vb.) her çeyrek güncellenmesi.
-   - IR sunumlarında kullanılan grafik ve tabloların PowerPoint/Excel çıktılarının tek tıkla üretilmesi.
 
 3. **Portföy Analizi ve Senaryo Modülü**
-   - Portföy değer dağılımının grafiklerle (şehir bazında, varlık türü bazında) görselleştirilmesi.
-   - Örneğin Pendorya kira gelirinde veya doluluk oranında belirli bir değişimin, toplam portföy ve gelir üzerindeki etkisini simüle eden basit senaryo ekranları.
 
-4. **IR Asistanının Genişletilmesi**
-   - Asistanın yalnızca demo veri setiyle sınırlı kalmayıp, şirketin güncel finansal veritabanına ve KAP açıklamalarına erişecek şekilde genişletilmesi.
-   - Sık sorulan yatırımcı sorularına (temettü politikası, portföy dağılımı, borç yapısı vb.) hazır ve güncel yanıtlar üretebilmesi.
+4. **IR Asistanının Genişletilmesi ve LLM Kullanılması**
 
-Bu aşamalar tamamlandığında, proje; TSKB GYO özelinde, her çeyrek tekrarlanan manuel raporlama iş yükünü azaltan ve yatırımcı ilişkileri ekibine hız kazandıran gerçek bir iç araç haline getirilebilir.
 
 > Not: Uygulamadaki veriler tanıtım amaçlıdır ve kamuya açık kaynaklardan yaklaşık olarak alınmıştır. Yatırım kararı için kullanılmamalıdır.
