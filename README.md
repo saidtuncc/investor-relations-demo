@@ -1,11 +1,10 @@
-# IR Console – TSKB GYO Demo
+# IR Console – GYO Demo
 
 IR Console, Borsa İstanbul'da işlem gören şirketlerin finans ve yatırımcı ilişkileri ekipleri için tasarlanmış küçük ama odaklı bir iç paneldir.
 
-Bu repo, IR Console'un **TSKB GYO** verileriyle çalışan demo uygulamasını içerir:
+Bu repo, IR Console'un GYO verileriyle çalışan demo uygulamasını içerir:
 
 - 30.06.2025 dönemi için finansal özet ve temel oranlar
-- Fındıklı Ofis Binaları, Pendorya AVM, Divan Adana Oteli ve Tahir Han'dan oluşan portföy görünümü
 - Örnek KAP bildirim listesi (başlık, tarih, link)
 - Şirkete özel çalışan, sınırlı kapsamlı bir IR asistanı
 
@@ -13,11 +12,11 @@ Amaç, her çeyrek tekrarlanan raporlama ve IR işleri (finansal özetler, portf
 
 ## Veri Kaynakları & Varsayımlar
 
-Bu demo uygulama, TSKB GYO'nun kamuya açık verileri kullanılarak hazırlanmış, kurum içi kullanım senaryosuna yönelik bir prototiptir.
+Bu demo uygulama,kurum içi kullanım senaryosuna yönelik bir prototiptir.
 
 **Kullanılan başlıca veri kaynakları:**
 
-- TSKB GYO kurumsal ve portföy sayfaları (aktif büyüklük, portföy değerleri, portföydeki varlık listesi, m² ve oda bilgileri).
+- kurumsal ve portföy sayfaları (aktif büyüklük, portföy değerleri, portföydeki varlık listesi, m² ve oda bilgileri).
 - Gayrimenkul portföyü ve Net Aktif Değer (NAV) tablosunda yer alan ekspertiz tutarları.
 - KAP'ta yayımlanan finansal raporlar, faaliyet raporları ve örnek bildirimler (demo'da sınırlı sayıda kayıt temsilî olarak kullanılmıştır).
 
@@ -26,7 +25,7 @@ Bu demo uygulama, TSKB GYO'nun kamuya açık verileri kullanılarak hazırlanmı
 - 30.06.2025 itibarıyla:
   - Toplam aktif büyüklük,
   - Gayrimenkul portföyü toplam ekspertiz değeri,
-  - Portföydeki dört ana varlık (Fındıklı Ofis Binaları, Pendorya AVM, Divan Adana Oteli, Tahir Han) için ekspertiz değerleri ve temel özellikler (m², oda sayısı vb.)
+  - Portföydeki ana varlık için ekspertiz değerleri ve temel özellikler (m², oda sayısı vb.)
 - Finansal KPI tablosunda yalnızca en güncel dönem (2025/06) gerçek verilere dayanmaktadır; geçmiş dönemler için herhangi bir senaryo veya tahmin eklenmemiştir.
 - Net kâr ve net kira geliri alanları, ilgili veriler bu prototipte işlenmediği için boş bırakılmakta, arayüzde `—` olarak gösterilmektedir.
 
